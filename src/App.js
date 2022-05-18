@@ -1,8 +1,9 @@
 import './App.css';
-import NavigationBar from "./component/NavigationBar";
-import Intro from "./component/Intro";
-import Trending from "./component/Trending";
-import Superhero from "./component/Superhero";
+import NavigationBar from "./components/NavigationBar";
+import Intro from "./components/Intro";
+import Trending from "./components/Trending";
+import Superhero from "./components/Superhero";
+
 import "./style/landingPage.css"
 
 function App() {
@@ -13,8 +14,6 @@ function App() {
         <NavigationBar />
         <Intro />
       </div>
-      
-
   
       <div className="trending">
         <Trending />
