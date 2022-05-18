@@ -8,7 +8,8 @@ const NavigationBar = () => {
                     <Navbar.Brand href="/">MyFilms</Navbar.Brand>
                     <Nav>
                         <Nav.Link href="#trending">Trending</Nav.Link>  
-                        <Nav.Link href="#superhero">Superhero</Nav.Link>  
+                        <Nav.Link href="#superhero">Superhero</Nav.Link>
+                        <Nav.Link href="#linkdownload">Link Download</Nav.Link>  
                     </Nav>
                 </Container>
             </Navbar>
